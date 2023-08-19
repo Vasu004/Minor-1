@@ -9,7 +9,7 @@ public class FundAnalyzer {
             System.out.println("1. Add Income");
             System.out.println("2. Add Expense");
             System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
+            System.out.println("4. Leave");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
 
@@ -18,10 +18,10 @@ public class FundAnalyzer {
                     System.out.print("Enter income amount: ");
                     double income = scanner.nextDouble();
                     balance += income;
-                    System.out.println("Income added successfully.");
+                    System.out.println("Income added successfully");
                     break;
                 case 2:
-                    System.out.print("Enter expense amount: ");
+                    System.out.print("Enter expense amount ");
                     double expense = scanner.nextDouble();
                     balance -= expense;
                     System.out.println("Expense added successfully.");
