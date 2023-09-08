@@ -21,7 +21,7 @@ public class FundAnalyzer {
                     System.out.println("Income added successfully");
                     break;
                 case 2:
-                    System.out.print("Enter expense amount ");
+                    System.out.print("Enter expense pay ");
                     double expense = scanner.nextDouble();
                     balance -= expense;
                     System.out.println("Expense added successfully.");
