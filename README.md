@@ -18,7 +18,6 @@ Charts: Chart.js
 Dependency Management: Maven
 Version Control: Git
 Getting Started
-Clone the repository: git clone https://github.com/your-username/personal-finance-tracker.git
 Set up the database by executing SQL scripts in the database-scripts directory.
 Open the project in your preferred IDE.
 Configure database connection details in application.properties.
