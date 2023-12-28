@@ -10,19 +10,21 @@ Categorization of monthly expenses (e.g., food, clothing, health).
 Dynamic budget assignment for each expense category.
 Expense tracking and visualization.
 Monthly expense analysis through charts and graphs.
-Technical Stack
-Backend: Java (Spring Boot)
-Frontend: HTML, CSS, JavaScript
+
+# Technical Stack
+Backend: Java 
+Frontend: JSP Pages
 Database: MySQL
-Charts: Chart.js
+Charts: JFree Chart
 Dependency Management: Maven
-Version Control: Git
-Getting Started
+
+# Getting Started
 Set up the database by executing SQL scripts in the database-scripts directory.
 Open the project in your preferred IDE.
 Configure database connection details in application.properties.
 Build and run the project.
-Usage
+
+# Usage
 Access the web app through the provided URL.
 Register or log in.
 Enter your monthly income and categorize your expenses.
